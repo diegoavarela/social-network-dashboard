@@ -1,0 +1,50 @@
+.overview {
+    background-color: rgba(215, 210, 210, 0.718); 
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.card-overview {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 80%;
+    height: 100%;
+}
+
+.card-overview h5 {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    align-self: center;
+}
+
+.card-overview h2 {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    align-self: center;
+    font-size: 30px;
+}
+
+.card-overview img {
+    align-self: center ;
+    justify-self: end;
+}
+
+.difference-overview {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: end;
+}
+
+@media screen and (min-width:1440px) {
+
+    
+}

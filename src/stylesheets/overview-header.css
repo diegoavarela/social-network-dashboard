@@ -1,0 +1,7 @@
+
+.overview-header {
+    width: 75%;
+    display: flex;
+    justify-content: left;
+    margin-top: 20px;
+}
